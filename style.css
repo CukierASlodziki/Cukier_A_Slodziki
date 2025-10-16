@@ -7,43 +7,14 @@ div{
     height: 100vh;
     display: none;
 }
-
-#div1{
-    width: 100%;
-    background-color: rgb(78, 1, 74);
-    text-align: center;
-    display: block;
-    font-size: 32px;
-    font-weight: bold;
-    color: rgb(121, 0, 115);
-    text-shadow: 2px 0 4px rgb(220, 79, 255);
-    position: absolute;
-    z-index: -1;
-}
-#tytul_box{
-    width: 40%;
-    height: 40vh;
-    margin-top: 350px;
-    margin-left: 30vw;
-    background-color: rgb(17, 17, 17);
-    display: block;
-    border-radius: 50px;
+#button1{
+    float:right;
+    height: 100vh;
+    width: 50px;
+    opacity: 0.2;
+    z-index: 100;   
+    background-color:rgb(255, 101, 247);
     box-shadow: 0 0 15px rgb(220, 79, 255);
-}
-#tytul1{
-    padding-top: 150px ;
-}
-#div2{
-    width: 100%;
-    background-color: rgb(78, 1, 74);
-    text-align: center;
-    display: block;
-    font-size: 32px;
-    font-weight: bold;
-    color: rgb(121, 0, 115);
-    text-shadow: 2px 0 4px rgb(220, 79, 255);
-    position: absolute;
-    z-index: -1;
 }
 #button2{
     float:left;
@@ -52,15 +23,6 @@ div{
     opacity: 0.2;
     z-index: 100;
     background-color:rgb(255, 65, 246);
-    box-shadow: 0 0 15px rgb(220, 79, 255);
-}
-#button1{
-    float:right;
-    height: 100vh;
-    width: 50px;
-    opacity: 0.2;
-    z-index: 100;   
-    background-color:rgb(255, 101, 247);
     box-shadow: 0 0 15px rgb(220, 79, 255);
 }
 .arrow {
@@ -79,4 +41,126 @@ div{
 .left {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
+}
+
+#div1{
+    width: 100%;
+    background-color: rgb(78, 1, 74);
+    text-align: center;
+    display: block;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: rgb(121, 0, 115);
+    text-shadow: 2px 0 4px rgb(220, 79, 255);
+    position: absolute;
+    z-index: -1;
+}
+#tytul_box{
+    width: 40%;
+    height: 40vh;
+    margin-top: 25vh;
+    margin-left: 30vw;
+    background-color: rgb(17, 17, 17);
+    display: block;
+    border-radius: 50px;
+    box-shadow: 0 0 15px rgb(220, 79, 255);
+}
+#tytul1{
+    padding-top: 5vh ;
+}
+#div2{
+    width: 100%;
+    background-color: rgb(78, 1, 74);
+    text-align: center;
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(121, 0, 115);
+    text-shadow: 2px 0 4px rgb(220, 79, 255);
+    position: absolute;
+    z-index: -1;
+}
+.s2{
+    width: 40%;
+    height: 90vh;
+    margin-top: 3vh;
+    margin-right: 5vw;
+    float: right;
+    background-color: rgb(17, 17, 17);
+    display: block;
+    border-radius: 50px;
+    box-shadow: 0 0 15px rgb(220, 79, 255);
+}
+.opis{
+    font-size: 16px;
+    height: 60vh;
+    margin-top: 30px !important;
+    margin: 90px;
+    width: 80%;
+    box-shadow: 0 0 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 0 4px rgb(87, 87, 87);
+}
+.tytul{
+    padding-top: 30px !important;
+}
+
+#div2 label{
+    color: white;
+    margin-right: 80%;
+    margin-bottom: 5vh;
+    border-radius: 2px;
+    background-color: rgb(121, 0, 115);
+    display: inline-block;
+    text-decoration: none;
+    border: 0;
+    cursor: pointer;
+}
+#div2 label:hover{
+    animation: button 0.5s;
+    scale: 150%;
+}
+.checkbox1{
+    display: none;
+}
+.checkbox1:checked ~ #Poliele {
+    display: block;
+    margin-left: -50vw;
+    margin-top: -7vw;
+}
+.checkbox2:checked ~ #SIS {
+    margin-top: 25px;
+    margin-left: -50vw;
+    display: block;
+}
+.checkbox3:checked ~ #NSS {
+    margin-top: 25px;
+    margin-left: -50vw;
+    display: block;
+}
+#Poliele{
+    width: 30vw;
+    background-color: rgb(17, 17, 17);
+    height: 20vh;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(248, 248, 248);
+    text-shadow: 2px 0 4px rgb(46, 46, 46);
+    box-shadow: 0 0 15px rgb(220, 79, 255);
+    border-radius: 2vw;
+}
+#Poliele ol{
+        text-align: left;
+}
+@keyframes button{
+    10%{scale:105%}
+    20%{scale: 110%}
+    30%{scale:115%}
+    40%{scale: 120%}
+    50%{scale:125%}
+    60%{scale:130%}
+    70%{scale:135%}
+    80%{scale:140%}
+    90%{scale:145%}
+    100%{scale: 150%}
 }

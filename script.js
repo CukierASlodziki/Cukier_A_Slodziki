@@ -1,10 +1,10 @@
 var i=1;
 function next(){
-    document.getElementById("div"+i).style.display = "none";
-    i++;
-    //if(i>=0){
+    document.getElementById("div"+i).style.display = "none";//if(i>=0){
        // i=1;
     //}
+    i++;
+    
     document.getElementById("div"+i).style.display = "block";
 }
 function previous(){
