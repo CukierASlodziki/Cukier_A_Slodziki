@@ -101,9 +101,6 @@ div{
     color: rgb(255, 255, 255);
     text-shadow: 2px 0 4px rgb(87, 87, 87);
 }
-.tytul{
-    padding-top: 30px !important;
-}
 
 #div2 label{
     color: white;
@@ -123,21 +120,6 @@ div{
 .checkbox1{
     display: none;
 }
-.checkbox1:checked ~ #Poliele {
-    display: block;
-    margin-left: -50vw;
-    margin-top: -7vw;
-}
-.checkbox2:checked ~ #SIS {
-    margin-top: 25px;
-    margin-left: -50vw;
-    display: block;
-}
-.checkbox3:checked ~ #NSS {
-    margin-top: 25px;
-    margin-left: -50vw;
-    display: block;
-}
 #Poliele{
     width: 30vw;
     background-color: rgb(17, 17, 17);
@@ -148,9 +130,15 @@ div{
     text-shadow: 2px 0 4px rgb(46, 46, 46);
     box-shadow: 0 0 15px rgb(220, 79, 255);
     border-radius: 2vw;
+    margin-bottom: -23vh;
+    margin-top: 3vh;
+    margin-left: 60px;
 }
 #Poliele ol{
-        text-align: left;
+    text-align: left;
+}
+.show{
+    display: block;
 }
 @keyframes button{
     10%{scale:105%}

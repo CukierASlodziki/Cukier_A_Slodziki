@@ -1,6 +1,7 @@
 var i=1;
 function next(){
-    document.getElementById("div"+i).style.display = "none";//if(i>=0){
+    document.getElementById("div"+i).style.display = "none";
+    //if(i>=0){
        // i=1;
     //}
     i++;
@@ -14,4 +15,7 @@ function previous(){
         i=1;
     }
     document.getElementById("div"+i).style.display = "block";
+}
+function ShowHide(id){
+    document.getElementById(id).classList.toggle("show")
 }

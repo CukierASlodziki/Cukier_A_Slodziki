@@ -17,24 +17,25 @@
         </div>
     </div>
     <div id="div2">
+        <div id="Poliele">
+            Związki chemiczne, które są mniej słodkie i kaloryczne od cukru. Należą do nich:
+            <ol>
+                <li>Ksylitol (cukier brzozowy) </li>
+                <li>Erytrytol </li>
+                <li>Sorbitol </li>
+                <li>Maltitol</li> 
+            </ol>
+        </div>
         <div class="tytul s2">CZYM SĄ SŁODZIKI?
             <div class="s2 opis"> 
                 Slodziki to słodkie substancje chemiczne lub naturalne który mają na celu zastąpić cukeir np.w napojach lub dal cukrzyków, zazwyczaj zawierają one mniej kalori co nie oznacza że są zdrowsze.
                 <p>Dzielą się one na 3 główne kategorie:</p>
-                <input type="checkbox" class="checkbox1" id="checkbox1"> 
+                <input type="checkbox" class="checkbox1" id="checkbox1" onclick="ShowHide('Poliele')"> 
                     <label for="checkbox1" class="burgir-btn">
                         Poliele(substancje lekko słodkie)
                     </label>
-                <div id="Poliele">
-                    Związki chemiczne, które są mniej słodkie i kaloryczne od cukru. Należą do nich:
-                    <ol>
-                        <li>Ksylitol (cukier brzozowy) </li>
-                        <li>Erytrytol </li>
-                        <li>Sorbitol </li>
-                        <li>Maltitol</li> 
-                    </ol>
-                </div>
-                <input type="checkbox" class="checkbox2" id="checkbox2"> 
+                
+                <input type="checkbox" class="checkbox2" id="checkbox2" onclick="ShowHide('SIS')"> 
                     <label for="checkbox2" class="burgir-btn">
                         Substancje intensywnie słodzące
                     </label>
@@ -46,7 +47,7 @@
                         Sukraloza 
 
                 </div>
-                <input type="checkbox" class="checkbox3" id="checkbox3"> 
+                <input type="checkbox" class="checkbox3" id="checkbox3" onclick="ShowHide('NSS')"> 
                     <label for="checkbox3" class="burgir-btn">
                         Naturalne substancje słodzące
                     </label>
