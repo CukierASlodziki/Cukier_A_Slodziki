@@ -106,7 +106,9 @@ div {
   color: white;
   margin-right: 80%;
   margin-bottom: 5vh;
-  border-radius: 2px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
   background-color: rgb(121, 0, 115);
   display: inline-block;
   text-decoration: none;
@@ -114,8 +116,9 @@ div {
   cursor: pointer;
 }
 #div2 label:hover {
-  animation: button 0.5s;
-  scale: 150%;
+  animation: button 0.1s;
+  scale: 110%;
+  transform: translateY(-3px)
 }
 .checkbox1 {
   display: none;
@@ -178,34 +181,7 @@ div {
   display: block;
 }
 @keyframes button {
-  10% {
-    scale: 105%;
-  }
-  20% {
-    scale: 110%;
-  }
-  30% {
-    scale: 115%;
-  }
-  40% {
-    scale: 120%;
-  }
-  50% {
-    scale: 125%;
-  }
-  60% {
-    scale: 130%;
-  }
-  70% {
-    scale: 135%;
-  }
-  80% {
-    scale: 140%;
-  }
-  90% {
-    scale: 145%;
-  }
   100% {
-    scale: 150%;
+    scale: 110%;
   }
 }
