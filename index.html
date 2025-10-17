@@ -1,65 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <button id="button1" onclick="next()"><i class="arrow right"></i></button>
-    <button id="button2" onclick="previous()"><i class="arrow left"></i></button>
+    <button id="button2" onclick="previous()">
+      <i class="arrow left"></i>
+    </button>
     <div id="div1">
-        <div id="tytul_box">
-            <p id="tytul1">CUKIER </p>
-            <p id="tytul2">A </p>
-            <p id="tytul3">SŁODZIKI </p>
-        </div>
+      <div id="tytul_box">
+        <p id="tytul1">CUKIER</p>
+        <p id="tytul2">A</p>
+        <p id="tytul3">SŁODZIKI</p>
+      </div>
     </div>
     <div id="div2">
+      <div id="s2-2">
         <div id="Poliele">
-            Związki chemiczne, które są mniej słodkie i kaloryczne od cukru. Należą do nich:
-            <ol>
-                <li>Ksylitol (cukier brzozowy) </li>
-                <li>Erytrytol </li>
-                <li>Sorbitol </li>
-                <li>Maltitol</li> 
-            </ol>
+          Związki chemiczne, które są mniej słodkie i kaloryczne od cukru.
+          Należą do nich:
+          <ol>
+            <li>Ksylitol (cukier brzozowy)</li>
+            <li>Erytrytol</li>
+            <li>Sorbitol</li>
+            <li>Maltitol</li>
+          </ol>
         </div>
-        <div class="tytul s2">CZYM SĄ SŁODZIKI?
-            <div class="s2 opis"> 
-                Slodziki to słodkie substancje chemiczne lub naturalne który mają na celu zastąpić cukeir np.w napojach lub dal cukrzyków, zazwyczaj zawierają one mniej kalori co nie oznacza że są zdrowsze.
-                <p>Dzielą się one na 3 główne kategorie:</p>
-                <input type="checkbox" class="checkbox1" id="checkbox1" onclick="ShowHide('Poliele')"> 
-                    <label for="checkbox1" class="burgir-btn">
-                        Poliele(substancje lekko słodkie)
-                    </label>
-                
-                <input type="checkbox" class="checkbox2" id="checkbox2" onclick="ShowHide('SIS')"> 
-                    <label for="checkbox2" class="burgir-btn">
-                        Substancje intensywnie słodzące
-                    </label>
-                <div id="SIS">
-                     Są znacznie słodsze od cukru, dlatego stosuje się je w bardzo małych ilościach. Do tej grupy zalicza się:
-                        Aspartam 
-                        Acesulfam K 
-                        Sacharyna 
-                        Sukraloza 
+        <div id="SIS">
+          Są znacznie słodsze od cukru, dlatego stosuje się je w bardzo małych
+          ilościach. Do tej grupy zalicza się:
+          <ol>
+            <li>Aspartam</li>
+            <li>Acesulfam K</li>
+            <li>Sacharyna</li>
+            <li>Sukraloza</li>
+          </ol>
+        </div>
+        <div id="NSS">
+          <ol>
+            <li>Stewia</li>
+            <li>Syrop z agawy</li>
+            <li>Inulina</li>
+            <li>Melasa</li>
+          </ol>
+        </div>
+      </div>
+      <div class="tytul s2">
+        CZYM SĄ SŁODZIKI?
+        <div class="s2 opis">
+          Slodziki to słodkie substancje chemiczne lub naturalne który mają na
+          celu zastąpić cukeir np.w napojach lub dal cukrzyków, zazwyczaj
+          zawierają one mniej kalori co nie oznacza że są zdrowsze.
+          <p>Dzielą się one na 3 główne kategorie:</p>
+          <input
+            type="checkbox"
+            class="checkbox1"
+            id="checkbox1"
+            onclick="ShowHide('Poliele')"
+          />
+          <label for="checkbox1" class="burgir-btn">
+            Poliele(substancje lekko słodkie)
+          </label>
 
-                </div>
-                <input type="checkbox" class="checkbox3" id="checkbox3" onclick="ShowHide('NSS')"> 
-                    <label for="checkbox3" class="burgir-btn">
-                        Naturalne substancje słodzące
-                    </label>
-                <div id="NSS">
-                    Stewia 
-                    Syrop z agawy 
-                    Inulina 
-                    Melasa 
-                </div>
-            </div>
+          <input
+            type="checkbox"
+            class="checkbox2"
+            id="checkbox2"
+            onclick="ShowHide('SIS')"
+          />
+          <label for="checkbox2" class="burgir-btn">
+            Substancje intensywnie słodzące
+          </label>
+
+          <input
+            type="checkbox"
+            class="checkbox3"
+            id="checkbox3"
+            onclick="ShowHide('NSS')"
+          />
+          <label for="checkbox3" class="burgir-btn">
+            Naturalne substancje słodzące
+          </label>
         </div>
-        
+      </div>
     </div>
     <div id="div3"></div>
     <div id="div4"></div>
@@ -80,5 +107,5 @@
     <div id="div19"></div>
     <div id="div20"></div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
