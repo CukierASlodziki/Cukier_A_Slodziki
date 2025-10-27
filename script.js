@@ -5,7 +5,9 @@ function next(){
        // i=1;
     //}
     i++;
-    
+    if(i>6){
+        i=1;
+    }
     document.getElementById("div"+i).style.display = "block";
 }
 function previous(){
