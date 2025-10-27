@@ -83,8 +83,7 @@ div {
 .s2 {
   width: 40%;
   height: 90vh;
-  margin-top: 3vh;
-  margin-right: 5vw;
+  margin-top: 2vh;
   float: right;
   background-color: rgb(17, 17, 17);
   display: block;
@@ -96,10 +95,11 @@ div {
   height: 60vh;
   margin-top: 30px !important;
   margin: 90px;
-  width: 80%;
+  width: 70%;
   box-shadow: 0 0 0;
   color: rgb(255, 255, 255);
   text-shadow: 2px 0 4px rgb(87, 87, 87);
+  float: left;
 }
 
 #div2 label {
@@ -107,6 +107,10 @@ div {
   margin-right: 80%;
   margin-bottom: 5vh;
   border-radius: 2px;
+  width:30vw;
+  height: 4vh;
+  padding-top:10px;
+  font-size: 1.5vw;
   background-color: rgb(121, 0, 115);
   display: inline-block;
   text-decoration: none;
@@ -114,8 +118,7 @@ div {
   cursor: pointer;
 }
 #div2 label:hover {
-  animation: button 0.5s;
-  scale: 150%;
+  transform: translateY(-2px);
 }
 .checkbox1 {
   display: none;
@@ -132,13 +135,14 @@ div {
   float: left;
   display: grid;
   grid-template-columns: repeat(10, 10%);
-  grid-template-rows: repeat(3, 30%);
-  gap: 3%;
+  grid-template-rows: repeat(3, 27%);
+  gap: 4%;
 }
 #Poliele {
   grid-area: 1 / 2 / 1 / 7;
   height: 100%;
   margin-top: 3%;
+  padding-top: 20px;
   background-color: rgb(17, 17, 17);
   text-align: center;
   font-size: 16px;
@@ -153,6 +157,7 @@ div {
 #SIS {
   grid-area: 2 / 2 / 2 / 7;
   height: 100%;
+  padding-top: 20px;
   background-color: rgb(17, 17, 17);
   text-align: center;
   font-size: 16px;
@@ -161,10 +166,14 @@ div {
   box-shadow: 0 0 15px rgb(220, 79, 255);
   border-radius: 2vw;
   margin-top: 3%;
+}
+#SIS ol {
+  text-align: left;
 }
 #NSS {
   grid-area: 3 / 2 / 3 / 7;
   height: 100%;
+  padding-top: 20px;
   background-color: rgb(17, 17, 17);
   text-align: center;
   font-size: 16px;
@@ -174,38 +183,48 @@ div {
   border-radius: 2vw;
   margin-top: 3%;
 }
-.show {
+#NSS ol {
+  text-align: left;
+}
+#div3{
+  background-color: rgb(78, 1, 74);
+}
+#s3{
+  width: 85%;
+  height: 90vh;
+  margin-top: 2vh;
+  float: right;
+  background-color: rgb(17, 17, 17);
+  display: block;
+  border-radius: 50px;
+  box-shadow: 0 0 15px rgb(220, 79, 255);
+}
+.tytul6{
+  display: block;
+  font-size: 4vw;
+  color: rgb(121, 0, 115);
+  text-shadow: 2px 0 4px rgb(220, 79, 255);
+  height: 6vw;
+  margin-left: 3vw;
+}
+.wzor{
   display: block;
 }
-@keyframes button {
-  10% {
-    scale: 105%;
-  }
-  20% {
-    scale: 110%;
-  }
-  30% {
-    scale: 115%;
-  }
-  40% {
-    scale: 120%;
-  }
-  50% {
-    scale: 125%;
-  }
-  60% {
-    scale: 130%;
-  }
-  70% {
-    scale: 135%;
-  }
-  80% {
-    scale: 140%;
-  }
-  90% {
-    scale: 145%;
-  }
-  100% {
-    scale: 150%;
-  }
+.porownac{
+  width: 35%;
+  height: 100%;
+  margin-left: 8vw;
+  display: block;
+  float: left;
+  font-size: 30px;
+  color: white;
+}
+.sklad{
+  display: block;
+}
+#div4{
+
+}
+.show {
+  display: block;
 }
